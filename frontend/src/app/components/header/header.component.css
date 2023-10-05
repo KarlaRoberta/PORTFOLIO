@@ -1,0 +1,40 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+.header{
+  background-color: #323232;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.header h1{
+  color: #FE4182;
+  font-size: 2.5rem;
+}
+
+.header span{
+  color: white;
+}
+
+.header .navegacao-primaria{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .navegacao-primaria li a{
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.header >ul>li> a:hover {
+  color: #FE4182;
+}
+
+
+
