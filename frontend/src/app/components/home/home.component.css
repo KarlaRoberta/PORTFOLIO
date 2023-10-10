@@ -1,50 +1,22 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
 *{
-
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+
 }
 
 
 body{
-  font-family: 'Poppins', sans-serif;
-  /* max-width: 1200px; */
   background-color:#323232;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
   margin: 0 auto;
 
 }
 
-/* header{
-  background-color: #323232;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-header h1{
-  color: #FE4182;
-  font-size: 2.5rem;
-}
-
-header span{
-  color: white;
-}
-
-header .navegacao-primaria{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-header .navegacao-primaria li a{
-  padding: 10px;
-  color: white;
-  font-size: 1.3rem;
-} */
-
 .section-div{
-  background-color: #323232;
+  background-color:#323232;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
@@ -54,7 +26,8 @@ header .navegacao-primaria li a{
 }
 
 .section-div div{
-  margin-top: 120px;
+
+  margin-top: 70px;
   align-items: start;
   display: grid;
   gap: 30px;
@@ -73,7 +46,6 @@ header .navegacao-primaria li a{
 
 }
 
-
 .section-div div p{
   font-weight: 200;
   color: white;
@@ -89,8 +61,52 @@ header .navegacao-primaria li a{
 .section-div .button{
   width: 250px;
   margin-left: 170px;
+
 }
 
 .section-div img{
   max-width: 100%;
+}
+
+/* Seção Sobre Mim */
+main{
+  background-color: black;
+  color: white;
+
+}
+
+main .sobre{
+  position: relative;
+  top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px;
+
+}
+
+.sobreTitulo{
+  margin: 30px 0px;
+  grid-column: 1/-1;
+  text-align: center;
+  color: white;
+}
+.sobreTitulo h1{
+  font-size: 2.5rem;
+  color: #FE4182;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sobreTexto p{
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.sobreTitulo div{
+  display: flex;
 }
