@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon'
 
 import { HeaderComponent } from './components/header/header.component';
 
@@ -23,6 +24,7 @@ import { HeaderComponent } from './components/header/header.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatToolbarModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
