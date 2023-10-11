@@ -26,11 +26,11 @@ body{
 }
 
 .section-div div{
-
-  margin-top: 70px;
+  margin-top: 100px;
   align-items: start;
   display: grid;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .section-div div h1{
@@ -77,13 +77,12 @@ main{
 
 main .sobre{
   position: relative;
-  top: 60px;
+  top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   justify-content: center;
   padding: 40px;
-
 }
 
 .sobreTitulo{
@@ -109,4 +108,56 @@ main .sobre{
 
 .sobreTitulo div{
   display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sobreTitulo span{
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #FE4182;
+}
+
+.sobreConteudo{
+  animation: sobreSecao .6s ease-in-out forwards;
+  grid-column: 2/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.sobreInfo{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/-1;
+  gap: 15px;
+  align-items: center;
+
+}
+
+.sobreInfo i{
+  color: #FE4182;
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 1.5rem;
+
+}
+
+.sobreInfo a{
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes sobreSecao {
+  from{
+    transition: .5s;
+    transform: translate3d(60px, 0, 0);
+  }
+  to{
+    transform: translate3d(0, 0, 0)
+  }
+
 }
