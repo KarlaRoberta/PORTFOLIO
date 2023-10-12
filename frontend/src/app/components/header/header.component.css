@@ -1,7 +1,8 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
 *{
   list-style: none;
   text-decoration: none;
- 
+
 }
 .header{
   background-color: #323232;
@@ -21,13 +22,13 @@
   color: white;
 }
 
-.header .navegacao-primaria{
+.header .navegacaoPrimaria{
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.header .navegacao-primaria li a{
+.header .navegacaoPrimaria li a{
   color: white;
   font-size: 1.3rem;
   padding: 10px;
@@ -38,4 +39,15 @@
 }
 
 
+@media(max-width: 992px){
+
+  .header .navegacaoPrimaria {
+    display: none;
+  }
+
+  .header i{
+    color: white;
+    font-size: 3rem;
+  }
+}
 

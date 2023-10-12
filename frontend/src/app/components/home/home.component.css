@@ -161,3 +161,25 @@ main .sobre{
   }
 
 }
+/* resposivo */
+
+@media(max-width: 992px){
+
+  .section-div{
+    /* background-image: url(../../../assets/perfil_pequenaPP.jpg); */
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+
+
+  .sobre img{
+    grid-column: 1/-1;
+    justify-self: center;
+  }
+
+  .sobreConteudo{
+    grid-column: 1/-1;
+  }
+
+}
