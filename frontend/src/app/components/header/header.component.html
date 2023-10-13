@@ -1,3 +1,31 @@
+<div class="menuHamburgue">
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Exemplo icon-button de menu" >
+  <i class="fi fi-br-menu-burger"></i>
+</button>
+<mat-menu #menu="matMenu">
+
+  <button mat-menu-item>
+    <span>Home</span>
+  </button>
+
+  <button mat-menu-item >
+    <span>Sobre</span>
+  </button>
+
+  <button mat-menu-item>
+    <span>Hard skills</span>
+  </button>
+
+  <button mat-menu-item>
+    <span>Projetos</span>
+  </button>
+
+  <button mat-menu-item>
+    <span>Contatos</span>
+  </button>
+
+</mat-menu>
+</div>
 <mat-toolbar class="header">
 
     <h1>Dev <span>Frontend</span></h1>
@@ -10,7 +38,7 @@
             <li><a href="#contatos">Contatos</a></li>
         </ul>
     </nav>
-    <i class="fi fi-br-menu-burger"></i>
+
 
 </mat-toolbar>
 
