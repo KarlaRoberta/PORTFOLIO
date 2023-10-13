@@ -179,9 +179,54 @@ main .sobre{
 
   .sobreConteudo{
     grid-column: 1/-1;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
 
   }
 
-  
-
 }
+
+.services{
+  margin-top: -30px;
+  padding: 60px;
+  background-color: #323232;
+}
+
+.myServices ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.myServices ul li{
+  cursor: pointer;
+  border-radius: 6px;
+  position: relative;
+  padding: 10px;
+  display: grid;
+  gap: 30px;
+  text-align: center;
+  max-width: 300px;
+  align-content: center;
+  height: 300px;
+  background-color: black;
+}
+
+.myServices ul li i{
+  font-size: 2.7rem;
+  color: #FE4182;
+}
+
+.myServices ul li h3{
+  font-size: 1.6rem;
+}
+
+.myServices ul li p{
+  color: #909090;
+  font-size: 1.1rem;
+}
+
