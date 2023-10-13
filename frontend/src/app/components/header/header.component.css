@@ -37,7 +37,9 @@
 .header >ul>li> a:hover {
   color: #FE4182;
 }
-
+.menuHamburgue{
+  display: none;
+}
 
 @media(max-width: 992px){
 
@@ -48,6 +50,16 @@
   .header i{
     color: white;
     font-size: 3rem;
+  }
+  .menuHamburgue{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: #FE4182;
+    position: absolute;
+    left: 600px;
+    top: 18px;
+
   }
 }
 
