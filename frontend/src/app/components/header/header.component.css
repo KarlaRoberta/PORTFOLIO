@@ -32,11 +32,13 @@
   color: white;
   font-size: 1.3rem;
   padding: 10px;
+
 }
 
-.header >ul>li> a:hover {
+.header .navegacaoPrimaria li a:hover{
   color: #FE4182;
 }
+
 .menuHamburgue{
   display: none;
 }
@@ -46,10 +48,13 @@
   .header .navegacaoPrimaria {
     display: none;
   }
-
-  .header i{
-    color: white;
-    font-size: 3rem;
+  .header h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+  
+  .menuHamburgue i{
+    font-size: 2rem;
   }
   .menuHamburgue{
     display: flex;
@@ -61,5 +66,6 @@
     top: 18px;
 
   }
+
 }
 
