@@ -230,3 +230,33 @@ main .sobre{
   font-size: 1.1rem;
 }
 
+.myServices li::before{
+  content: '';
+  transition: .5s ease-in-out;
+  border-radius: 6px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border-top: 2px solid transparent;
+  border-radius: 2px solid transparent;
+}
+
+.myServices li::after{
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+
+}
+.myServices li:hover::before{
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #FE4182;
+  border-right: 2px solid #FE4182;
+}
