@@ -351,3 +351,27 @@ main .sobre{
   margin-top: -30px;
 
 }
+.projetos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.projetoCard {
+  max-width: 300px;
+  margin-left: 20px;
+  margin-bottom: 4rem;
+
+}
+
+.subTituloProjeto{
+  margin-bottom: 10px;
+}
+
+.buttonProjetos{
+  padding-left: 30px;
+
+}
+.buttonCodigo{
+  margin-left: 15px;
+}

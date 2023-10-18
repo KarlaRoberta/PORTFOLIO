@@ -13,6 +13,7 @@ import {MatIconModule} from '@angular/material/icon'
 import { HeaderComponent } from './components/header/header.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatCardModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
