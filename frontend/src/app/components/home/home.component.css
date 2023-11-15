@@ -23,6 +23,7 @@ body{
   align-items: center;
   gap: 60px;
   padding: 60px;
+
 }
 
 .section-div div{
@@ -31,6 +32,7 @@ body{
   display: grid;
   gap: 30px;
   margin-bottom: 100px;
+  margin-left: 8%;
 }
 
 .section-div div h1{
@@ -67,6 +69,7 @@ body{
 
 .section-div img{
   max-width: 70%;
+  margin-left: 8%;
 }
 
 /* Seção Sobre Mim */
@@ -102,10 +105,12 @@ main .sobre{
 
 .sobreTexto p{
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-bottom: 1rem;
   font-family: 'Poppins', sans-serif;
   position: relative;
+  margin-top: -80px;
+  line-height: 1em;
 }
 
 .sobreTitulo div{
